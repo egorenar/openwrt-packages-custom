@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libkcapi
-PKG_VERSION:=1.3.1
+PKG_VERSION:=1.4.0
 PKG_RELEASE:=$(AUTORELEASE)
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=https://www.chronox.de/libkcapi/
-PKG_HASH:=6b57946eb87bc9cfa544140b6c9a12ef9eefa0a16695578aebf3395f0a78bede
+PKG_HASH:=644b47593b3f27f08add7a8808ccdbe569a2f331d70fb8b52551e57379b917fa
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=BSD-3-Clause (library), BSD-3-Clause or GPL-2.0 (programs)
