@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gocryptfs
-PKG_VERSION:=2.2.1
+PKG_VERSION:=2.4.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/rfjakob/$(PKG_NAME)/archive/v$(PKG_VERSION)
-PKG_HASH:=b8459db4b62c8cec311a957bb808a44d9626b4fda219bd9098b1ebefb8d6f00b
+PKG_HASH:=a36d47f546b7deb87e291066a09d324015dbada123de355f41d035ba7a9d6b2b
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
