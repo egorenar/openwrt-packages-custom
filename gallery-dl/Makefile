@@ -31,7 +31,7 @@ define Package/gallery-dl
     +ca-certificates \
     +ffmpeg \
     +yt-dlp \
-    +python3 \
+    +python3-light \
     +python3-pysocks \
     +python3-requests \
     +python3-setuptools
