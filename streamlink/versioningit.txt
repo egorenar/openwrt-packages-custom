@@ -1,0 +1,1 @@
+versioningit==2.2.1 --hash=sha256:0e58242d7abda61ae63596a5494ae9ed631ac85d8bb3cc8e176e3253ca4bcbb5
