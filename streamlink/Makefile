@@ -30,7 +30,7 @@ define Package/streamlink
   DEPENDS:= \
     +ca-certificates \
     +ffmpeg \
-    +python3 \
+    +python3-light \
     +python3-requests \
     +python3-charset-normalizer \
     +python3-pysocks \
