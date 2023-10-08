@@ -29,7 +29,7 @@ define Package/python3-isodate
   TITLE:=Used for parsing ISO8601 strings
   URL:=https://github.com/gweis/isodate/
   DEPENDS:= \
-    +python3 \
+    +python3-light \
     +python3-six
 endef
 
