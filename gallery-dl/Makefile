@@ -33,8 +33,7 @@ define Package/gallery-dl
     +yt-dlp \
     +python3-light \
     +python3-pysocks \
-    +python3-requests \
-    +python3-setuptools
+    +python3-requests
 endef
 
 define Package/gallery-dl/description
