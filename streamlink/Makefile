@@ -38,8 +38,7 @@ define Package/streamlink
     +python3-cryptodome \
     +python3-websocket-client \
     +python3-pycountry \
-    +python3-isodate \
-    +python3-setuptools
+    +python3-isodate
 endef
 
 define Package/streamlink/description
