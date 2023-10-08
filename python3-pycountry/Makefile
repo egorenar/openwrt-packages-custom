@@ -29,7 +29,7 @@ define Package/python3-pycountry
   TITLE:=Provides databases for various ISO standards
   URL:=https://github.com/flyingcircusio/pycountry
   DEPENDS:= \
-    +python3
+    +python3-light
 endef
 
 define Package/python3-pycountry/description
