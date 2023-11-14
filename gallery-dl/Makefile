@@ -8,14 +8,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gallery-dl
-PKG_VERSION:=1.26.0
+PKG_VERSION:=1.26.2
 PKG_RELEASE:=1
 
 PYPI_NAME:=gallery_dl
-PKG_HASH:=fa0e2d7ebed117daeb8a641c5e1733de8fc2c7dc4b36b4c3575171ed74b187b2
+PKG_HASH:=02071cb33d139730839e1479572ed3b778ebab3f7e87069c95081724184663dc
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
-PKG_LICENSE:=Unlicense
+PKG_LICENSE:=GPL-2.0-or-later
 PKG_LICENSE_FILES:=LICENSE
 
 include $(TOPDIR)/feeds/packages/lang/python/pypi.mk
