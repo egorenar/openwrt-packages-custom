@@ -1,0 +1,15 @@
+#!/bin/sh /etc/rc.common
+
+USE_PROCD=1
+START=95
+STOP=01
+
+CONFIG=/mnt/sda1/openwrt/sabnzbd/sabnzbd.ini
+
+start_service() {
+	procd_open_instance
+	procd_set_param user sabnzbd
+	procd_set_param command /usr/lib/SABnzbd/SABnzbd.py -f "$CONFIG" -l 1 -d -b0 -s localhost:8080
+	procd_set_param respawn
+	procd_close_instance
+}
