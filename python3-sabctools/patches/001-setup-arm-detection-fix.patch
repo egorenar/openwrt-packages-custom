@@ -1,0 +1,16 @@
+--- a/setup.py	2023-11-18 00:19:34.938151909 +0100
++++ b/setup.py	2023-11-18 00:20:37.860149699 +0100
+@@ -74,10 +74,10 @@
+     def build_extension(self, ext: Extension):
+         # Try to determine the architecture to build for
+         machine = platform.machine().lower()
+-        IS_X86 = machine in ["i386", "i686", "x86", "x86_64", "x64", "amd64"]
++        IS_X86 = False
+         IS_MACOS = sys.platform == "darwin"
+-        IS_ARM = machine.startswith("arm") or machine.startswith("aarch64")
+-        IS_AARCH64 = True
++        IS_ARM = True
++        IS_AARCH64 = False
+ 
+         log.info("==> Baseline detection: ARM=%s, x86=%s, macOS=%s", IS_ARM, IS_X86, IS_MACOS)
+ 
