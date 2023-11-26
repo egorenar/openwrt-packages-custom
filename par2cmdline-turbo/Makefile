@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=par2cmdline-turbo
-PKG_VERSION:=1.1.0
+PKG_VERSION:=1.1.1
 PKG_RELEASE:=$(AUTORELEASE)
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/animetosho/$(PKG_NAME)/archive/refs/tags/v$(PKG_VERSION)
-PKG_HASH:=78d92b18a935e1b822df8539e17c476095be8ab2d853ea642f8f20e17719a9b5
+PKG_HASH:=df2ed7c0ab4eb70347d2fe6c7ed36a0bd5b4b750e7dbdb842d89c51409c716fc
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=GPL-2.0-or-later
@@ -29,7 +29,7 @@ define Package/par2cmdline-turbo
   SECTION:=utils
   CATEGORY:=Utilities
   TITLE:=PAR 2.0 compatible file verification and repair tool
-  DEPENDS:=+libstdcpp
+  DEPENDS:=+libstdcpp +libatomic
   URL:=https://github.com/animetosho/par2cmdline-turbo
 endef
 
