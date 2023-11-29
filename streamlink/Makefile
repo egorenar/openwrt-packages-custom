@@ -8,14 +8,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=streamlink
-PKG_VERSION:=6.4.1
+PKG_VERSION:=6.4.2
 PKG_RELEASE:=1
 
 PYPI_NAME:=streamlink
-PKG_HASH:=8e3dacb009334bad206dc9b50ddc3768d6a489fc7824ac42bb4bc70d0a926eac
+PKG_HASH:=b5fb719f4251a692c88788a1d46e2cd0fa2231960c52b281cb8210871c722e76
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
-PKG_LICENSE:=Unlicense
+PKG_LICENSE:=BSD-2-Clause
 PKG_LICENSE_FILES:=LICENSE
 
 include $(TOPDIR)/feeds/packages/lang/python/pypi.mk
