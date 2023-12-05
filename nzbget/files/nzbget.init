@@ -1,0 +1,15 @@
+#!/bin/sh /etc/rc.common
+
+USE_PROCD=1
+START=95
+STOP=01
+
+CONFIG=/mnt/sda1/openwrt/nzbget/nzbget.conf
+
+start_service() {
+	procd_open_instance
+	procd_set_param user nzbget
+	procd_set_param command /usr/bin/nzbget -c "$CONFIG"
+	procd_set_param respawn
+	procd_close_instance
+}
