@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gallery-dl
-PKG_VERSION:=1.26.3
+PKG_VERSION:=1.26.4
 PKG_RELEASE:=1
 
 PYPI_NAME:=gallery_dl
-PKG_HASH:=33c10fd186f22613943eb821600da30d0fc2a720fdf1ddbb97de2e123e181293
+PKG_HASH:=aa83561fb7e898e40474ecf4fac117b5f85722d3e87d231b0ef40298770e3d7a
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=GPL-2.0-or-later
