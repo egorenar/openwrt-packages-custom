@@ -1,0 +1,22 @@
+--- a/crates/lib/Cargo.toml	2023-12-15 12:10:33.160927869 +0100
++++ b/crates/lib/Cargo.toml	2023-12-15 12:10:44.842927459 +0100
+@@ -16,7 +16,7 @@
+ edition = "2021"
+ 
+ [dependencies]
+-async-priority-channel = "0.1.0"
++async-priority-channel = { git = "https://github.com/rmcgibbo/async-priority-channel.git", rev = "refs/pull/79/head" }
+ async-recursion = "1.0.5"
+ atomic-take = "1.0.0"
+ futures = "0.3.29"
+--- a/crates/lib/src/config.rs	2023-12-15 12:16:57.059914388 +0100
++++ a/crates/lib/src/config.rs	2023-12-15 12:17:08.059914002 +0100
+@@ -152,7 +152,7 @@
+ 	/// adjusting this value may help.
+ 	///
+ 	/// This is unchangeable at runtime and must be set before Watchexec instantiation.
+-	pub event_channel_size: usize,
++	pub event_channel_size: u64,
+ }
+ 
+ impl Default for Config {
