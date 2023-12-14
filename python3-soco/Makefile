@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-soco
-PKG_VERSION:=0.29.1
+PKG_VERSION:=0.30.0
 PKG_RELEASE:=1
 
 PYPI_NAME:=soco
-PKG_HASH:=6f164ab8c282d5d2e4cc382d55b7e7c1bb45f400d7e784f64b50f97a6c9f7363
+PKG_HASH:=9c5f7d2177f823be6b9ea1801be45641c0c853eed431dc4176e04c4037b12491
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
