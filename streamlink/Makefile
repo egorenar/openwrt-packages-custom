@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=streamlink
-PKG_VERSION:=6.4.2
+PKG_VERSION:=6.5.0
 PKG_RELEASE:=1
 
 PYPI_NAME:=streamlink
-PKG_HASH:=b5fb719f4251a692c88788a1d46e2cd0fa2231960c52b281cb8210871c722e76
+PKG_HASH:=8f4d61593bcce10f8d5e84ca956aac4fa639c0a349e7df379834373a883966ed
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=BSD-2-Clause
