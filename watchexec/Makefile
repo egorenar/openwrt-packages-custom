@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=watchexec
-PKG_VERSION:=1.24.1
+PKG_VERSION:=1.24.2
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/watchexec/watchexec/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=9afc736fd4c0f895c89b7d6b1bbbb831fdb255400f785dcd3a414f62a5db6bd5
+PKG_HASH:=d863b77332bd56cd37a45a99ae2be50a9aa332b66b523a4a76676bd778c017d4
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=Apache-2.0
