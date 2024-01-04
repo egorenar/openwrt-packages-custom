@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-jaraco.collections
-PKG_VERSION:=4.3.0
+PKG_VERSION:=5.0.0
 PKG_RELEASE:=1
 
 PYPI_NAME:=jaraco.collections
-PKG_HASH:=74ffc23fccfee4de0a2ebf556a33675b6a3c003d6335947d3122a0bc8822c8e4
+PKG_HASH:=1680e8d09f295f625c7ba926880175a26fdbe7092b4c76d198e30476b21cfe68
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
