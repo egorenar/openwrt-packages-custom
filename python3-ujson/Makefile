@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-ujson
-PKG_VERSION:=5.8.0
+PKG_VERSION:=5.9.0
 PKG_RELEASE:=1
 
 PYPI_NAME:=ujson
-PKG_HASH:=78e318def4ade898a461b3d92a79f9441e7e0e4d2ad5419abed4336d702c7425
+PKG_HASH:=89cc92e73d5501b8a7f48575eeb14ad27156ad092c2e9fc7e3cf949f07e75532
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=BSD-2-Clause
