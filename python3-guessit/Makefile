@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-guessit
-PKG_VERSION:=3.7.1
+PKG_VERSION:=3.8.0
 PKG_RELEASE:=1
 
 PYPI_NAME:=guessit
-PKG_HASH:=2c18d982ee6db30db5d59557add0324a2b49bf3940a752947510632a2b58a3c1
+PKG_HASH:=6619fcbbf9a0510ec8c2c33744c4251cad0507b1d573d05c875de17edc5edbed
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=LGPL-3.0-or-later
