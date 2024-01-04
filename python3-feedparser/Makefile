@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-feedparser
-PKG_VERSION:=6.0.10
+PKG_VERSION:=6.0.11
 PKG_RELEASE:=1
 
 PYPI_NAME:=feedparser
-PKG_HASH:=27da485f4637ce7163cdeab13a80312b93b7d0c1b775bef4a47629a3110bca51
+PKG_HASH:=c9d0407b64c6f2a065d0ebb292c2b35c01050cc0dc33757461aaabdc4c4184d5
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=BSD-2-Clause
