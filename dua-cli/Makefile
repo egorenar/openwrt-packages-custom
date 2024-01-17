@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=dua-cli
-PKG_VERSION:=2.26.0
+PKG_VERSION:=2.27.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/Byron/dua-cli/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=45605f86655059ccb4b4bd6e5fe37275899b6d6eee5344fd63b4b2a32f00a182
+PKG_HASH:=505f41f9628a5a305d9f713da4adbe972fdf40fb810b327a6fb5dcd3998c7bd5
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
