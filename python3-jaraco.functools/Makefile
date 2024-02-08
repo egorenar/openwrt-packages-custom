@@ -14,6 +14,8 @@ PKG_RELEASE:=1
 PYPI_NAME:=jaraco.functools
 PKG_HASH:=c279cb24c93d694ef7270f970d499cab4d3813f4e08273f95398651a634f0925
 
+PKG_BUILD_DEPENDS:=python-setuptools-scm/host
+
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=LICENSE
