@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=eza
-PKG_VERSION:=0.18.5
+PKG_VERSION:=0.18.6
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/eza-community/eza/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=9229b2111063577a0cb8650db270d0ae6bcc1b437dbacf814786f77c67b1003d
+PKG_HASH:=4cbca009d8ddc817d9ffda34bd1cada4278896e63051c645f0821605a6497faa
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
