@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=SABnzbd
-PKG_VERSION:=4.2.2
+PKG_VERSION:=4.2.3
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-src.tar.gz
 PKG_SOURCE_URL:=https://github.com/sabnzbd/sabnzbd/releases/download/$(PKG_VERSION)/
-PKG_HASH:=c4996a2ba65f279af81c93b1330591d8a58c2144b718d134972878cf4b527cd1
+PKG_HASH:=f16314cf4032dcaccfd0b4af4d0e67a55c37f31870af3ca90f80d5f547ed8c25
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=GPL-2.0-or-later
