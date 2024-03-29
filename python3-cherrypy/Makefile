@@ -22,6 +22,10 @@ include $(TOPDIR)/feeds/packages/lang/python/pypi.mk
 include $(INCLUDE_DIR)/package.mk
 include $(TOPDIR)/feeds/packages/lang/python/python3-package.mk
 
+define Py3Build/InstallBuildDepends
+  $(call HostPython3/PipInstall,--requirement setuptools-scm-git-archive.txt)
+endef
+
 define Package/python3-cherrypy
   SECTION:=lang-python
   CATEGORY:=Languages
