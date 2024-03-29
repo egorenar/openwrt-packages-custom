@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=starship
-PKG_VERSION:=1.18.0
+PKG_VERSION:=1.18.2
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/starship/starship/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=e387ead17edeccb603b15dc2bd9b61c6541e795e0f4a9d9015015743228c2368
+PKG_HASH:=505100002efe93dbff702edd82f814cadc340335487993e76dd6777dba461a7a
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=ISC
