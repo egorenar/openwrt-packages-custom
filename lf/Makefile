@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=lf
-PKG_VERSION:=r31
+PKG_VERSION:=r32
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/gokcehan/$(PKG_NAME)/archive/$(PKG_VERSION)
-PKG_HASH:=ed47fc22c58cf4f4e4116a58c500bdb9f9ccc0b89f87be09f321e8d1431226ab
+PKG_HASH:=01531e7a78d8bfbe14739072e93446d003f0e4ce12032a26671fa326b73bc911
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
