@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-cheroot
-PKG_VERSION:=10.0.0
+PKG_VERSION:=10.0.1
 PKG_RELEASE:=1
 
 PYPI_NAME:=cheroot
-PKG_HASH:=59c4a1877fef9969b3c3c080caaaf377e2780919437853fc0d32a9df40b311f0
+PKG_HASH:=e0b82f797658d26b8613ec8eb563c3b08e6bd6a7921e9d5089bd1175ad1b1740
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=BSD-2-Clause
