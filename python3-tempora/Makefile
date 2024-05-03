@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-tempora
-PKG_VERSION:=5.5.0
+PKG_VERSION:=5.5.1
 PKG_RELEASE:=1
 
 PYPI_NAME:=tempora
-PKG_HASH:=13e4fcc997d0509c3306d6841f03e9381b7e5e46b2bebfae9151af90085f0c26
+PKG_HASH:=a2bb51e2121976d931347b3e433917c364b83fdd5f64ef27336c865bf1fb0f75
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
