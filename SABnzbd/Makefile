@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=SABnzbd
-PKG_VERSION:=4.2.3
+PKG_VERSION:=4.3.1
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-src.tar.gz
 PKG_SOURCE_URL:=https://github.com/sabnzbd/sabnzbd/releases/download/$(PKG_VERSION)/
-PKG_HASH:=f16314cf4032dcaccfd0b4af4d0e67a55c37f31870af3ca90f80d5f547ed8c25
+PKG_HASH:=c9902c212df3e6b7208c850e6ceab244afc4b3e173459c425db9be4df902bd44
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=GPL-2.0-or-later
@@ -57,6 +57,7 @@ define Package/SABnzbd
     +python3-sabctools \
     +python3-cryptography \
     +python3-ujson \
+    +python3-apprise \
     +@BUSYBOX_CONFIG_IONICE \
     +unrar \
     +unzip \
