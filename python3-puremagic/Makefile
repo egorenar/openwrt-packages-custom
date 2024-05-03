@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-puremagic
-PKG_VERSION:=1.15
+PKG_VERSION:=1.22
 PKG_RELEASE:=1
 
 PYPI_NAME:=puremagic
-PKG_HASH:=6e46aa78113a466abc9f69e6e8a4ce90eb57d908dafb809597012621061462bd
+PKG_HASH:=e584f00cfcc8096f54b092562df91580c3faa8b1599c36d5f9348e95254f2054
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
