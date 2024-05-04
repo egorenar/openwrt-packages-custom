@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=soco-cli
-PKG_VERSION:=0.4.71
+PKG_VERSION:=0.4.76
 PKG_RELEASE:=1
 
 PYPI_NAME:=soco-cli
-PKG_HASH:=80688b1b3cd524818ef923e4db309ef8a48cd5235db5e8ec6672b0eeae463a65
+PKG_HASH:=052820314587acc17ca64cf1de509b1d9c075f6e4b54a5afb4bae4c7b4c85af2
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=Apache-2.0
