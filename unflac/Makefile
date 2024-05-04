@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=unflac
-PKG_VERSION:=1.1
+PKG_VERSION:=1.3
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://git.sr.ht/~ft/unflac/archive/
-PKG_HASH:=a79aa3625bae55286f382909a899f6304d71e7ce206e0234c40d944c74932caf
+PKG_HASH:=29cf865fdffeae3f98e821eb4e747e42fb3a431b51810c1142d4225322a80fe4
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=Unlicense
