@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=fd
-PKG_VERSION:=9.0.0
+PKG_VERSION:=10.1.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/sharkdp/fd/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=306d7662994e06e23d25587246fa3fb1f528579e42a84f5128e75feec635a370
+PKG_HASH:=ee4b2403388344ff60125c79ff25b7895a170e7960f243ba2b5d51d2c3712d97
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
