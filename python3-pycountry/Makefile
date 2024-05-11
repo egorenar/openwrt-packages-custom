@@ -8,15 +8,15 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-pycountry
-PKG_VERSION:=22.3.5
+PKG_VERSION:=23.12.11
 PKG_RELEASE:=1
 
 PYPI_NAME:=pycountry
-PKG_HASH:=b2163a246c585894d808f18783e19137cb70a0c18fb36748dc01fc6f109c1646
+PKG_HASH:=00569d82eaefbc6a490a311bfa84a9c571cff9ddbf8b0a4f4e7b4f868b4ad925
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
-PKG_LICENSE:=Unlicense
-PKG_LICENSE_FILES:=LICENSE
+PKG_LICENSE:=LGPL-2.1-or-later
+PKG_LICENSE_FILES:=LICENSE.txt
 
 include $(TOPDIR)/feeds/packages/lang/python/pypi.mk
 include $(INCLUDE_DIR)/package.mk
