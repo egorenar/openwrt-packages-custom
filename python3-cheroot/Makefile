@@ -18,13 +18,11 @@ PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=BSD-2-Clause
 PKG_LICENSE_FILES:=LICENSE.md
 
+HOST_PYTHON3_PACKAGE_BUILD_DEPENDS=./setuptools-scm-git-archive.txt
+
 include $(TOPDIR)/feeds/packages/lang/python/pypi.mk
 include $(INCLUDE_DIR)/package.mk
 include $(TOPDIR)/feeds/packages/lang/python/python3-package.mk
-
-define Py3Build/InstallBuildDepends
-  $(call HostPython3/PipInstall,--requirement setuptools_scm_git_archive.txt)
-endef
 
 define Package/python3-cheroot
   SECTION:=lang-python
