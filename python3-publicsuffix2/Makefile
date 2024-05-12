@@ -18,13 +18,11 @@ PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=Custom
 PKG_LICENSE_FILES:=publicsuffix2.LICENSE
 
+HOST_PYTHON3_PACKAGE_BUILD_DEPENDS=./requests.txt
+
 include $(TOPDIR)/feeds/packages/lang/python/pypi.mk
 include $(INCLUDE_DIR)/package.mk
 include $(TOPDIR)/feeds/packages/lang/python/python3-package.mk
-
-define Py3Build/InstallBuildDepends
-  $(call HostPython3/PipInstall,--requirement requests.txt)
-endef
 
 define Package/python3-publicsuffix2
   SECTION:=lang-python
