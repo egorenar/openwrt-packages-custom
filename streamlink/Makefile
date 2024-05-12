@@ -8,17 +8,17 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=streamlink
-PKG_VERSION:=6.5.1
+PKG_VERSION:=6.7.4
 PKG_RELEASE:=1
 
 PYPI_NAME:=streamlink
-PKG_HASH:=207fb4ce99c35bfeb1b8f7c76b96cfcb4076ad6881c61eaea553c2ec13d97c57
+PKG_HASH:=9337537ab119fe77524a5d665aaecebbfb06e2cb8df28d1260d92876425751ce
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=BSD-2-Clause
 PKG_LICENSE_FILES:=LICENSE
 
-HOST_PYTHON3_PACKAGE_BUILD_DEPENDS=./versioningit.txt
+HOST_PYTHON3_PACKAGE_BUILD_DEPENDS=./setuptools.txt ./versioningit.txt
 
 include $(TOPDIR)/feeds/packages/lang/python/pypi.mk
 include $(INCLUDE_DIR)/package.mk

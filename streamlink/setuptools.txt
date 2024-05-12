@@ -1,0 +1,1 @@
+setuptools==69.5.1 --hash=sha256:6c1fccdac05a97e598fb0ae3bbed5904ccb317337a51139dcd51453611bbb987
