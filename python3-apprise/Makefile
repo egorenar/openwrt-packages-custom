@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-apprise
-PKG_VERSION:=1.7.6
+PKG_VERSION:=1.8.0
 PKG_RELEASE:=1
 
 PYPI_NAME:=apprise
-PKG_HASH:=077f09309cc8a6c9063dbd614b343807d527d546693b7fe8fc5a4433502fea6c
+PKG_HASH:=e8f58cebfea1a34f569cb4c68809a3175be80ec06f0a2ec473522b92023212c5
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=BSD-2-Clause
