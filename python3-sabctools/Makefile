@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-sabctools
-PKG_VERSION:=8.1.0
+PKG_VERSION:=8.2.3
 PKG_RELEASE:=1
 
 PYPI_NAME:=sabctools
-PKG_HASH:=3d87db991f704f74874fea05c90176175de0ec581dbd8fe5f69d03eb973ff915
+PKG_HASH:=70fdc60a9da61a2bed8f203beafaad3bb989c998c778d92f04b976917c4e4f9c
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=GPL-2.0-or-later
