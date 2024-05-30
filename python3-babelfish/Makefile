@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-babelfish
-PKG_VERSION:=0.6.0
+PKG_VERSION:=0.6.1
 PKG_RELEASE:=1
 
 PYPI_NAME:=babelfish
-PKG_HASH:=2dadfadd1b205ca5fa5dc9fa637f5b7933160a0418684c7c46a7a664033208a2
+PKG_HASH:=decb67a4660888d48480ab6998309837174158d0f1aa63bebb1c2e11aab97aab
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=BSD-3-Clause
