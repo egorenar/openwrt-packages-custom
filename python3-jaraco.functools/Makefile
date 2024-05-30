@@ -8,11 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-jaraco.functools
-PKG_VERSION:=4.0.0
+PKG_VERSION:=4.0.1
 PKG_RELEASE:=1
 
 PYPI_NAME:=jaraco.functools
-PKG_HASH:=c279cb24c93d694ef7270f970d499cab4d3813f4e08273f95398651a634f0925
+PYPI_SOURCE_NAME=jaraco_functools
+PKG_HASH:=d33fa765374c0611b52f8b3a795f8900869aa88c84769d4d1746cd68fb28c3e8
 
 PKG_BUILD_DEPENDS:=python-setuptools-scm/host
 
@@ -23,6 +24,8 @@ PKG_LICENSE_FILES:=LICENSE
 include $(TOPDIR)/feeds/packages/lang/python/pypi.mk
 include $(INCLUDE_DIR)/package.mk
 include $(TOPDIR)/feeds/packages/lang/python/python3-package.mk
+
+PYTHON3_PKG_WHEEL_NAME:=jaraco.functools
 
 define Package/python3-jaraco.functools
   SECTION:=lang-python
