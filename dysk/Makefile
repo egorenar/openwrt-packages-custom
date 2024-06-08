@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=dysk
-PKG_VERSION:=2.8.2
+PKG_VERSION:=2.9.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/Canop/dysk/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=3e0f3a470539721748d7bc1acc867bdddcb824695b2f766e3a1f230ebac28c2c
+PKG_HASH:=daf372a6d8b50321cac4a6cdbc134de2d3ebb05bbd45a60301f21e448d88acee
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
