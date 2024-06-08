@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gitui
-PKG_VERSION:=0.26.2
+PKG_VERSION:=0.26.3
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/extrawurst/gitui/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=c69eccba2457c53c18b933794aa4ff3dfecb71af42349282108354d543e4d956
+PKG_HASH:=8075e180f3b01ff0c290b690488a7628c44b4de12346e04a77d823914a48918b
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
@@ -35,6 +35,10 @@ endef
 
 define Package/gitui/description
  GitUI provides you with the comfort of a git GUI but right in your terminal.
+endef
+
+define Build/Compile
+	$(call Build/Compile/Cargo,.,--locked)
 endef
 
 $(eval $(call RustBinPackage,gitui))
