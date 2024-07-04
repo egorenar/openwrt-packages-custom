@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-aioquic
-PKG_VERSION:=1.0.0
+PKG_VERSION:=1.1.0
 PKG_RELEASE:=1
 
 PYPI_NAME:=aioquic
-PKG_HASH:=ed31c2b5afa98c5b6cafa4f36149deaf1dff6c5a69701eadd27167415f9f1660
+PKG_HASH:=a791c5798baeb42a12fa28fd327da04d08f18795e93889178b4b2f49fe8bbf43
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=BSD-3-Clause
@@ -34,7 +34,9 @@ define Package/python3-aioquic
     +python3-certifi \
     +python3-pyopenssl \
     +python3-pylsqpack \
-    +python3-service-identity
+    +python3-service-identity \
+    +libopenssl \
+    +libopenssl-legacy
 endef
 
 define Package/python3-aioquic/description
