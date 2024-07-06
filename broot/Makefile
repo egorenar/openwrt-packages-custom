@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=broot
-PKG_VERSION:=1.39.0
+PKG_VERSION:=1.39.2
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/Canop/broot/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=d1d2ccc11543ff4ea645d57a5e78639542a6f510b585a78c31ddb3a24399bf61
+PKG_HASH:=69e565d7b1620dcc9401e8b415fcde84893d640541f7b534a55869b9c1cfd387
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
