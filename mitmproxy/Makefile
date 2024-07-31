@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=mitmproxy
-PKG_VERSION:=10.3.0
+PKG_VERSION:=10.4.2
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/mitmproxy/mitmproxy/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=e94362a2a715e2a7def41e4a7a18b61a2ba0233f395776ac81b774b7fee0264d
+PKG_HASH:=c1de5c0ae05cb152e0c187d1c675a867389f139f6a97f80ef61a47a475f068c3
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
@@ -48,7 +48,7 @@ define Package/mitmproxy
     +python3-msgpack \
     +python3-passlib \
     +python3-pyperclip \
-    +python3-urwid-mitmproxy \
+    +python3-urwid \
     +python3-publicsuffix2 \
     +python3-pyparsing \
     +python3-pyopenssl \
