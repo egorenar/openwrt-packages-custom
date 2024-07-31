@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-mitmproxy-rs
-PKG_VERSION:=0.5.2
+PKG_VERSION:=0.6.3
 PKG_RELEASE:=1
 
 PYPI_NAME:=mitmproxy-rs
 PYPI_SOURCE_NAME:=mitmproxy_rs
-PKG_HASH:=7583bea1ff5ea8e96c5cf12127e1698c52725f1dfdac6802891a4675b7287ba5
+PKG_HASH:=f3b44d255a50573c3b9b71fcb5146841b72ec186208ab2aa3fe35d11add2fd80
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
