@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-zstandard
-PKG_VERSION:=0.22.0
+PKG_VERSION:=0.23.0
 PKG_RELEASE:=1
 
 PYPI_NAME:=zstandard
-PKG_HASH:=8226a33c542bcb54cd6bd0a366067b610b41713b64c9abec1bc4533d69f51e70
+PKG_HASH:=b2d8c62d08e7255f68f7a740bae85b3c9b8e5466baa9cbf7f57f1cde0ac6bc09
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=BSD-3-Clause
