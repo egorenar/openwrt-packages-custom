@@ -8,11 +8,11 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=python3-pyperclip
-PKG_VERSION:=1.8.2
+PKG_VERSION:=1.9.0
 PKG_RELEASE:=1
 
 PYPI_NAME:=pyperclip
-PKG_HASH:=105254a8b04934f0bc84e9c24eb360a591aaf6535c9def5f29d92af107a9bf57
+PKG_HASH:=b7de0142ddc81bfc5c7507eea19da920b92252b548b96186caf94a5e2527d310
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=BSD-3-Clause
