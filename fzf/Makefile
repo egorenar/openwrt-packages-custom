@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=fzf
-PKG_VERSION:=0.54.3
+PKG_VERSION:=0.55.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/junegunn/$(PKG_NAME)/archive/refs/tags/v$(PKG_VERSION)
-PKG_HASH:=6413f3916f8058b396820f9078b1336d94c72cbae39c593b1d16b83fcc4fdf74
+PKG_HASH:=805383f71bca7f8fb271ecd716852aea88fd898d5027d58add9e43df6ea766da
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
