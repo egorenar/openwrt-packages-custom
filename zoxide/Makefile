@@ -8,12 +8,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=zoxide
-PKG_VERSION:=0.9.4
+PKG_VERSION:=0.9.5
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/ajeetdsouza/zoxide/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=ec002bdca37917130ae34e733eb29d4baa03b130c4b11456d630a01a938e0187
+PKG_HASH:=1278660e671d96c5421f0910fa7d79b9e0bb0bfacf7611ff63bf383f721d7a4f
 
 PKG_MAINTAINER:=Alexander Egorenkov <egorenar-dev@posteo.net>
 PKG_LICENSE:=MIT
